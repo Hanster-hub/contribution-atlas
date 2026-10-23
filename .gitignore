@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.atlas-cache/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+public/data.json
+atlas.local.json

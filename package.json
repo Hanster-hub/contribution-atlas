@@ -1,0 +1,17 @@
+{
+  "name": "contribution-atlas",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A clear view of GitHub activity, with an optional team game.",
+  "scripts": {
+    "demo": "python3 scripts/demo.py",
+    "start": "python3 -m http.server 3000 --directory public",
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs && python3 -m unittest discover -s tests -p 'test_*.py'",
+    "build:demo": "npm run demo && npm run build && python3 scripts/preview.py && cp dist/demo.html docs/index.html"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

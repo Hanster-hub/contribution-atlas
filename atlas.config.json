@@ -1,0 +1,1 @@
+{"repository":"octocat/Hello-World","title":"Contribution Atlas","accounts":[],"generatedPatterns":["package-lock.json","yarn.lock","pnpm-lock.yaml","*.min.js","dist/*","build/*"],"excludedCommitShas":[],"integrationLabels":["integration-bundle"]}
