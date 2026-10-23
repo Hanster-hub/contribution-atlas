@@ -9,6 +9,21 @@ Contribution Atlas turns repository activity into a lightweight, self-hostable d
 - **Easy to try.** A deterministic, fictional demo runs without credentials.
 - **Small footprint.** Node.js 18+ for development/build and Python 3.10+ for collection; no frontend runtime dependencies.
 
+## See it in action
+
+[Open the fictional demo](https://hanster-hub.github.io/contribution-atlas/) · [Try Game mode](https://hanster-hub.github.io/contribution-atlas/#game)
+
+### Tracking: follow the evidence
+
+![Tracking mode showing synthetic repository activity, date filters, and contribution totals](docs/screenshots/tracking.jpg)
+
+### Game: a little team competition, with the math in the open
+
+![Game mode showing fictional team leaderboard, score breakdown, and fixed rank ladder](docs/screenshots/game.jpg)
+
+These are actual browser captures of the public fictional demo—not real team records. Switch modes,
+explore the seven-day window, and inspect each score. Use it for friendly team rituals, not performance rankings.
+
 ## Try it locally
 
 ```sh
